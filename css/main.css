@@ -1,0 +1,133 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+  padding: 1em;
+  border-radius: 4px;
+  color: #555;
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
+}
+
+a:hover {
+  background-color: #555;
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  padding: .5em 1em 1em;
+  margin: 0;
+  padding-left: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+  color: #000;
+  text-align: left;
+  padding: .4em .75em .5em;
+  text-overflow: clip;
+}
+
+p {
+  margin: 0;
+  padding: 0 0 1em;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #e2e2e2;
+  max-width: inherit;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+img {
+  background-color: #e2e2e2;
+  display: block;
+  vertical-align: middle;
+  max-width: 25em;
+  width: 100%;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 2px;
+}
+
+.btn {
+  color: #555;
+  padding: 0;
+  padding-left: 0;
+  list-style: none;
+  align-content: center;
+  background-color: #e2e2e2;
+  margin: 0 -1em 1em;
+}
+
+.btn a {
+  display: inline-block;
+  background-color: #555;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 2em;
+  padding: .5em;
+  font-size: 1.125em;
+}
+
+.box1 {
+  flex: 0 1 auto;
+  align-content: center;
+  width: auto;
+}
+
+.box2 {
+  text-align: left;
+  flex: 0 1 auto;
+  max-width: 25em;
+  margin-left: .5%;
+  margin-right: 2%;
+  width: 95%;
+  align-content: center;
+  margin-top: 1rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+    html {
+      line-height: 1.5;
+      font-size: 130%;
+    }
